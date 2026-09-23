@@ -10,7 +10,7 @@ backend autoscaled with HPA, and a NetworkPolicy restricting DB access.
 - AWS CLI configured (`aws configure`)
 - `kubectl`, `eksctl`, `docker` installed
 - An existing EKS cluster with Fargate profile and AWS Load Balancer
-  Controller already installed (reuse your existing setup from project 2)
+  Controller already installed (reuse your existing setup from project 3)
 - ECR repos created for `backend` and `frontend`
 
 ```bash
